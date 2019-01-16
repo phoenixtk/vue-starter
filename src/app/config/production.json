@@ -1,0 +1,6 @@
+{
+  "api": {
+    "baseUrl": "https://vue-starter.herokuapp.com",
+    "privateKey": "522abc0c77a84a859e43a84ec38eb14d"
+  }
+}

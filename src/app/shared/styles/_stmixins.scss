@@ -1,0 +1,19 @@
+@mixin border-radius($type:normal) {
+  @if $type == normal {
+    border-radius: 20px;
+    -ms-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+  } @else if $type == small {
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  } @else if $type == big {
+    border-radius: 35px;
+    -ms-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+  }
+
+}

@@ -1,0 +1,10 @@
+{
+  "api": {
+    "mockUrl": "http://localhost:3000",
+    "baseUrl": "http://192.168.0.176:8750",
+    "privateKey": "522abc0c77a84a859e43a84ec38eb14d"
+  },
+  "features": {
+    "disableParticles": false
+  }
+}
